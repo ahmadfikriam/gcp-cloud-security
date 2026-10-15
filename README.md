@@ -4,7 +4,7 @@ Goal: secure a small GCP workload, detect misconfigurations, and automate with T
 
 ## Progress
 - [x] Week 1: Project setup, IAM review, custom VPC
-- [ ] Week 2: Deploy workload on Cloud Run
+- [x] Week 2: Deploy workload on Cloud Run
 - [ ] Week 3: Secrets, storage, least privilege
 - [ ] Week 4: Logging and detection
 - [ ] Week 5: Misconfigure, detect, fix
