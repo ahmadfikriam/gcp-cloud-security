@@ -49,9 +49,10 @@ Project IAM policy (shows the default Compute service account with `roles/editor
 gcloud projects get-iam-policy cloud-sec-ahmadfikriam
 ```
 Findings
-#	Finding	Risk	Planned fix
-1	Default Compute SA has `roles/editor`	A compromised workload inherits broad project access	Use `sa-app-runtime`, then replace Editor with specific roles (Week 3)
-2	`default` network allows SSH (22) and RDP (3389) from `0.0.0.0/0`	Remote access exposed to the internet	Use `secure-vpc` with IAP-only SSH
+#	Finding	Risk	Planned fix 
+# 01	Default Compute SA has `roles/editor`	A compromised workload inherits broad project access	Use `sa-app-runtime`, then replace Editor with specific roles (Week 3)
+
+# 02	`default` network allows SSH (22) and RDP (3389) from `0.0.0.0/0`	Remote access exposed to the internet	Use `secure-vpc` with IAP-only SSH
 ---
 5. Cloud Run: locked-down deployment
 Enable the APIs:
